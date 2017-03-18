@@ -16,7 +16,7 @@ Built on:
 
 1. Download or Clone the repository using the below git command to a directory
 
-  git clone https://github.com/anuraagprasaad/yelp-smack.git
+      git clone https://github.com/anuraagprasaad/yelp-smack.git
 
 2. Download the Yelp Challenge Data set(.tar or .tgz) to this cloned directory
 
