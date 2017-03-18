@@ -1,2 +1,4 @@
-# yelp-smack
-# yelp-smack
+# Yelp data processing using SPARK on Mesos
+
+
+
