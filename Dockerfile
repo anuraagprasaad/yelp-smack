@@ -12,7 +12,7 @@ ENV PATH=$PATH:$SPARK_HOME/bin
 
 COPY spark-defaults.conf /spark/conf
 COPY entrypoint.sh /
-
+COPY SparkSQLYelpDataProcessing.txt /opt/yelp/
 ADD yelp_dataset_challenge_round9.tgz /opt/yelp/
 
 EXPOSE 4040
