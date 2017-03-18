@@ -25,10 +25,10 @@ ADD <NEW_YELP_DATA_SET_NAME.tgz> /opt/yelp/
 
 5. Run the below Docker build command
 
-sudo docker build -t newyorker/yelp .
+  sudo docker build -t newyorker/yelp .
 
 6. Run the below Docker run command
 
-sudo docker run -ti --net=host newyorker/yelp-new spark-shell -i /opt/yelp/SparkSQLYelpDataProcessing.txt --driver-memory 10g --executor-memory 10g --conf spark.mesos.executor.docker
+  sudo docker run -ti --net=host newyorker/yelp-new spark-shell -i /opt/yelp/SparkSQLYelpDataProcessing.txt --driver-memory 10g --      executor-memory 10g --conf spark.mesos.executor.docker
 
 -- You can change the memory as per your available system memory 
