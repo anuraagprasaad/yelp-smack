@@ -1,12 +1,12 @@
 # Yelp data processing using SPARK on Mesos
 
-## Apache spark base image
+## Apache Spark & Apache Mesos image
 
 Built on:
 
-Ubuntu: 16.04
-Default JDK: openjdk-8
-Mesos: Mesosphere Mesos 1.1.0
-Apache Spark: 2.1.0
+1. Ubuntu: 16.04
+2. Default JDK: openjdk-8
+3. Mesos: Mesosphere Mesos 1.1.0
+4. Apache Spark: 2.1.0
 
 
