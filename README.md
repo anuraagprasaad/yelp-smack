@@ -35,4 +35,12 @@ Built on:
 
 -- You can change the driver-memory and executor-memory as per your available system memory 
 
--- That's it. All the queries will be automatically executed inside the SPARK-SHELL
+-- That's it. All the queries will be automatically executed inside the Spark Shell.
+
+-- There are few queries for each of the below Yelp Json files to ensure we can query these data sets.
+      1. yelp_academic_dataset_business.json
+      2. yelp_academic_dataset_user.json
+      3. yelp_yelp_academic_dataset_checkin.json
+      4. yelp_academic_dataset_tip.json
+      5. Some Join operations
+      4. 
