@@ -39,6 +39,8 @@ Built on:
 
 -- That's it. All the queries will be automatically executed inside the Spark Shell.
 
+-- This can easily be extended to execute an application JAR instead of a simple scala class. We can use Maven inside Dockerfile to build the application Jar and execute the Docker run command with spark-submit --master mesos://<MESOS-MASTER>:<PORT> --class <CLASSFILE> <JARFILE>
+
 -- There are few queries for each of the below Yelp Json files to ensure we can query these data sets.
 
       1. yelp_academic_dataset_business.json
