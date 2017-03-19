@@ -1,4 +1,4 @@
-# Yelp data processing using SPARK on Mesos
+# Yelp data processing using Apache Spark & Apache Mesos image
 
 ## Prerequisite
 Docker should be installed before using this image
