@@ -33,6 +33,8 @@ Built on:
 
   sudo docker run -ti --net=host newyorker-yelp spark-shell -i /opt/yelp/YelpDataParser.scala --driver-memory 30g -- executor-memory 30g
 
+## Notes:
+
 -- You can change the driver-memory and executor-memory as per your available system memory 
 
 -- That's it. All the queries will be automatically executed inside the Spark Shell.
