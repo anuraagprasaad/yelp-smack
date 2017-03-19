@@ -39,7 +39,7 @@ Built on:
 
 -- That's it. All the queries will be automatically executed inside the Spark Shell.
 
--- This can easily be extended to execute an application JAR instead of a simple scala class. We can use Maven inside Dockerfile to build the application Jar or use COPY command inside the Docker file to copy the application Jar to /opt/Yelp/ and execute the Docker run command with spark-submit --master mesos://MESOS-MASTER:PORT --class FULLY-CLASSIFIED-CLASSFILE /opt/Yelp/JARFILE
+-- This can easily be extended to execute an application JAR instead of a simple scala class. We can use Maven inside Dockerfile to build the application Jar or use COPY command inside the Docker file to copy the application Jar to /opt/Yelp/ and execute the Docker run command with spark-submit --master mesos://MESOS-MASTER:PORT --class FULLY-CLASSIFIED-CLASSFILE /opt/Yelp/JARFILE.jar
 
 -- There are few queries for each of the below Yelp Json files to ensure we can query these data sets.
 
