@@ -27,11 +27,11 @@ Built on:
 
 5. Run the below Docker build command
 
-      sudo docker build -t newyorker/yelp .
+      sudo docker build -t newyorker-yelp .
 
 6. Run the below Docker run command
 
-  sudo docker run -ti --net=host newyorker/yelp spark-shell -i /opt/yelp/YelpDataParser.scala --driver-memory 30g -- executor-memory 30g
+  sudo docker run -ti --net=host newyorker-yelp spark-shell -i /opt/yelp/YelpDataParser.scala --driver-memory 30g -- executor-memory 30g
 
 -- You can change the driver-memory and executor-memory as per your available system memory 
 
