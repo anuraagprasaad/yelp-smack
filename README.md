@@ -31,8 +31,8 @@ Built on:
 
 6. Run the below Docker run command
 
-      sudo docker run -ti --net=host newyorker/yelp-new spark-shell -i /opt/yelp/SparkSQLYelpDataProcessing.txt --driver-memory 10g --      executor-memory 10g --conf spark.mesos.executor.docker
+  sudo docker run -ti --net=host newyorker/yelp spark-shell -i /opt/yelp/YelpDataParser.scala --driver-memory 30g -- executor-memory 30g
 
--- You can change the memory as per your available system memory 
+-- You can change the driver-memory and executor-memory as per your available system memory 
 
 -- That's it. All the queries will be automatically executed inside the SPARK-SHELL
