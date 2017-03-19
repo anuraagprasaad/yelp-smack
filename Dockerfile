@@ -8,11 +8,13 @@ RUN apt-get update && apt-get install -y curl && \
     tar -xzf /spark/${SPARK_BINARY} -C /spark --strip-components 1
 
 ENV SPARK_HOME /spark
+
 ENV PATH=$PATH:$SPARK_HOME/bin
 
-COPY spark-defaults.conf /spark/conf
 COPY entrypoint.sh /
-COPY SparkSQLYelpDataProcessing.txt /opt/yelp/
+
+COPY YelpDataParser.scala /opt/yelp/
+
 ADD yelp_dataset_challenge_round9.tgz /opt/yelp/
 
 EXPOSE 4040
